@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div {
+         background: #89bffc; /* Цвет фона */
+         border: 2px solid black; /* Параметры рамки */
+         padding: 5px; /* Поля вокруг текста */
+         margin-bottom: 5%; /* Отступ снизу */
+        }
+       </style>
+  <form>
+   <p>Заполните форму (все поля  обязательны)</p>
+   <p>Номер рейса: <input type="number" name="num_r" required></p>
+   <p>Маршрут: <input type="text" name="marsh" required></p>
+   <p>Пункты промежуточной посадки: <input type="text" name="punkt" required></p>
+   <p>Время отправления: <input type="time" name="time" required></p>
+   <p>Дни полета: <input type="date" name="date" required></p>
+   <p><input type="submit" value="Отправить"></p>
+   <p><input type="reset" value="Очистить"></p>
+  </form>
+
+</body>
+</html>
